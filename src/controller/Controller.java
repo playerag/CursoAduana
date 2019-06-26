@@ -33,7 +33,7 @@ public class Controller extends HttpServlet {
 
     
     protected void inicio(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		System.out.println("hola controller");
     	String bt = request.getParameter("boton");
         
     	if (bt.equals("guardar"))
